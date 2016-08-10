@@ -6,11 +6,12 @@
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body ng-app="myApp">
-		<textarea ng-model="md" class="markdown-input"></textarea>
+		<textarea ng-model="md" class="markdown-input" spellcheck="false"></textarea>
 		<div markdown="md" class="markdown-output"></div>
 		<script src="lib/angular/angular.min.js"></script>
 		<script src="lib/showdown/dist/showdown.min.js"></script>
 		<script src="js/app.js"></script>
+		<script src="js/services.js"></script>
 		<script src="js/directives.js"></script>
 	</body>
 </html>

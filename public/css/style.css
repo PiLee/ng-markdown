@@ -5,6 +5,12 @@
 html,body{
 	height: 100%;
 }
+body{
+	font:16px 'Microsoft Yahei';
+}
+textarea{
+	font-family: 'Microsoft Yahei';
+}
 .markdown-input,.markdown-output{
 	position: absolute;
 	top:0;
@@ -17,6 +23,7 @@ html,body{
 	padding:20px;
 }
 .markdown-input{
+	font-size:16px;
 	left:0;
 	outline: 0;
 	border:0;
